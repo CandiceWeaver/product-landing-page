@@ -1,0 +1,50 @@
+html,
+body,
+div,
+h2,
+h3,
+p,
+a,
+img,
+form,
+label,
+header,
+nav,
+video {
+  margin: 0.25rem 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+header,
+nav {
+  display: block;
+}
+
+body {
+  line-height: 1.25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  margin: 1rem 0 1.5rem 0;
+}
+
+#nav-bar {
+  position: fixed;
+}
+
+// media queries
